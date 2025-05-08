@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: https://github.com/sjabdulla/argo-cd-public-repo.git
     targetRevision: HEAD
-    path: my-app
+    path: environments/staging/my-app
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:
