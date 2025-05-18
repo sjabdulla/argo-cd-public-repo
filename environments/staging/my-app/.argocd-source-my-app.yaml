@@ -1,0 +1,3 @@
+kustomize:
+  images:
+  - 009160067324.dkr.ecr.me-south-1.amazonaws.com/misc/devops:v0.1.1
