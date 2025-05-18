@@ -12,7 +12,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: ssh://git@github.com/antonputra/lesson-159.git
+    repoURL: https://github.com/sjabdulla/argo-cd-public-repo.git
     targetRevision: main
     path: environments/staging/my-app
   destination:
