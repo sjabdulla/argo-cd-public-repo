@@ -14,8 +14,8 @@ spec:
     repoURL: https://github.com/sjabdulla/argo-cd-public-repo.git
     targetRevision: main
     path: environments/staging/my-app
-    kustomize:
-      namePrefix: my-prefix-
+    # kustomize:
+    #   namePrefix: my-prefix-
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:
