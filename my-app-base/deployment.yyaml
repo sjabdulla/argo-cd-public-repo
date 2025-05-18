@@ -17,6 +17,6 @@ spec:
       containers:
         - name: nginx
           imagePullPolicy: Always
-          image: aputra/nginx-lesson159
+          image: 009160067324.dkr.ecr.me-south-1.amazonaws.com/misc/devops
           ports:
             - containerPort: 80
